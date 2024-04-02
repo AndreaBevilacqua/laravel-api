@@ -13,7 +13,9 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        $projects = Project::whereIsPublished(true)->latest()->get();
+
+        return response()->json($projects);
     }
 
     /**
