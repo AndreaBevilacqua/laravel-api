@@ -19,4 +19,4 @@ use App\Http\Controllers\Api\ProjectController;
 //     return $request->user();
 // });
 
-Route::apiResource('projects', ProjectController::class);
+Route::apiResource('projects', ProjectController::class)->only('index');
