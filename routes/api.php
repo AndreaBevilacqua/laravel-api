@@ -20,3 +20,4 @@ use App\Http\Controllers\Api\ProjectController;
 // });
 
 Route::apiResource('projects', ProjectController::class)->only('index');
+Route::get('projects/{id}', [ProjectController::class, 'show']);
