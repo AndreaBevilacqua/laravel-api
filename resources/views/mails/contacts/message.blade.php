@@ -10,15 +10,14 @@
         body {
             background-color: lightblue;
             text-align: center;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: Verdana, sans-serif;
         }
     </style>
 </head>
 
 <body>
     <h2>É stato inviato un messaggio</h2>
-    <p>{{ content }}</p>
-
+    <p>{{ $content }}</p>
 </body>
 
 </html>
