@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <p>É stato inviato un messaggio</p>
+    <h2>É stato inviato un messaggio</h2>
+    <p>{{ content }}</p>
 
 </body>
 
